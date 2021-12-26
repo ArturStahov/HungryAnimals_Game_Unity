@@ -4,7 +4,7 @@ using System.Collections;
 public class BGsoundGame : MonoBehaviour {
 	public AudioClip SounFon;
 	public float VollumeSoundFon; 
-	// Use this for initialization
+	// Use this for initialization test
 	void Start () {
 		AudioSource audioFon = GetComponent<AudioSource>();
 		audioFon.clip = SounFon;
